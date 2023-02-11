@@ -4,15 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
-    // commit 1
-    // abbas khan
-    //Abbas khan swat
+public class Welcome_Activity extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
-        // it is for the purpose of check up
+        setContentView(R.layout.activity_welcome);
     }
 }

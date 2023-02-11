@@ -12,6 +12,12 @@
         android:theme="@style/Theme.GitPrc"
         tools:targetApi="31">
         <activity
+            android:name=".Sign_In"
+            android:exported="false" />
+        <activity
+            android:name=".Welcome_Activity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
